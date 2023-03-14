@@ -1,0 +1,298 @@
+
+body{
+	
+	margin: auto;
+}
+
+
+
+.upperpart{
+	height: 610px;
+	background: url(images/mainimg.jpg);
+  background-attachment:fixed;
+}
+
+
+
+.upperpart .social{
+	float: right;
+	padding: 20px;
+}
+
+.upperpart .social a{
+	padding: 10px;
+}
+
+.upperpart #solace{
+	padding-top: 300px;
+  font-family: sans-serif;
+  padding-left: 55px;
+  font-weight: 700;
+}
+
+.upperpart #solace #cname{
+	font-size: 60px;
+  color: aliceblue;
+
+}
+
+.upperpart #solace #identity{
+	font-size: 30px;
+  margin-top: -5px;
+  color: aliceblue;
+  font-family: serif;
+}
+
+
+.middlepart{
+  padding: 60px 0 130px 230px;
+}
+
+.middlepart .bcolor{
+	width: 303px;
+	height: 297px;
+	background: #aac9e4;
+	float: left;
+}
+
+
+
+.middlepart .bcolor p{
+	margin-top: -242px;
+  font-size: 35px;
+  margin-left: 106px;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.middlepart .bcolor img{
+	padding: 40px;
+}
+
+
+.middlepart .hand {
+	padding: 66px 0px 0px 345px;
+}
+
+.middlepart .text{
+	width: 315px;
+  margin-top: -250px;
+  margin-left: 654px;
+  opacity: .8;
+}
+
+.middlepart .text h3{
+	line-height: 36px;
+  color: #444444;
+  font-size: 30px;
+  font-family: open-sans, sans-serif;
+  font-weight: 400;
+}
+
+.middlepart .text p{
+	font-size: 14px;
+  line-height: 17px;
+  color: #444444;
+  font-family: open-sans, sans-serif;
+  margin-bottom: 40px;
+}
+
+
+
+.middlepart .text a{
+  color: #FFFFFF;
+  font-family: open-sans, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  background: #aac9e4;
+  padding: 16px;
+  font-size: 14px;
+}
+
+
+.footer{
+	height: 564px;
+	background: url(images/original-chair-image.jpg);
+	background-attachment:fixed;
+}
+
+.footer .form{
+	width: 450px;
+  float: right;
+  margin-top: 80px;
+  margin-right: 90px;
+}
+
+.footer .form .para{
+	width: 260px;
+  line-height: 1;
+  font-family: sans-serif;
+}
+
+.footer .form .para p{
+	color: #0B3A6C;
+  font-size: 30px;
+  line-height: 36px;
+  font-family: open-sans, sans-serif;
+  font-weight: 400;
+}
+
+table tr td{
+	padding-bottom: 10px;
+}
+
+input{
+	width: 260px;
+	height: 40px;
+	font-family: monospace;
+  padding: 10px;
+}
+
+textarea{
+	padding: 10px;
+}
+
+#submit{
+	background: #144B70;
+  line-height: 14px;
+  font-weight: 600;
+  width: 138px;
+  height: 35px;
+  font-size: 15px;
+  padding: 0px;
+  color: #FFFFFF;
+  font-family: open-sans, sans-serif;
+}
+
+.owner{
+  padding: 65px;
+  width: 1080px;
+  margin: auto;
+}
+
+
+.owner .fimg{
+	margin-top: -294px;
+  margin-left: 90px;
+}
+
+.owner .text{
+	width: 400px;
+  float: right;
+  margin-top: -471px;
+  padding: 157px;
+}
+
+.owner .text p{
+	font-size: 25px;
+  font-family: cursive;
+}
+
+.last{
+	background: #000;
+}
+
+.last .info{
+  color: aliceblue;
+  width: 206px;
+  margin: auto;
+	margin-top: -15px;
+}
+
+#solace{ 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+}
+
+#solace p{
+  text-transform: uppercase;
+  display: block;
+}
+
+
+#cname{
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  position: relative;
+  animation: text 3s 1;
+}
+
+#identity{
+  font-size: 30px;
+  color:green;
+}
+
+@keyframes text {
+  0%{
+    color: white;
+    margin-bottom: -40px;
+  }
+  30%{
+    color:white;
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+  }
+  85%{
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+  }
+}
+
+
+#identity{
+  animation: fadeOut 4s;
+}
+
+#identity{
+  animation: fadeIn 10s;
+}
+
+@keyframes fadeOut{
+   from{
+      opacity:1;
+     }
+
+   to{
+
+    opacity:0;
+    }
+
+}
+
+
+
+@keyframes fadeIn{
+   from{
+      opacity:0;
+     }
+
+   to{
+
+    opacity:1;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

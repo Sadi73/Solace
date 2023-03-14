@@ -1,0 +1,21 @@
+body{
+	background: #aac9e4;
+
+}
+
+
+div{
+	text-align: center;
+	color: aliceblue;
+	font-size: 35px;
+	margin-top: 300px;
+
+}
+
+div p a{
+	text-decoration: none;
+}
+
+div a:hover{
+	color: #d27112;
+}
